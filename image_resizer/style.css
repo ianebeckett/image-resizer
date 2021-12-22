@@ -1,0 +1,33 @@
+body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-direction: column;
+        height: 75vh;
+}
+
+/* Image Preview Display Field */
+#displayImage{
+        /* 16:9 aspect ratio */
+        width: 375px;
+        height: 211px;
+        border: 1px solid black;
+        background-position: center;
+        background-size: cover;
+}
+
+/* Style buttons */
+.button {
+        background-color: DodgerBlue;
+        border: none;
+        color: white;
+        padding: 12px 30px;
+        cursor: pointer;
+        font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.button:hover {
+        background-color: RoyalBlue;
+}
